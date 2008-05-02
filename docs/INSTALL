@@ -1,0 +1,40 @@
++-----------------------------------------------------------------------------+
++-- PHP_Debug : A simple and fast way to debug your PHP code                  |
++--                                                                           |
++-- Support : Vernet Loic (qrf_coil[at]yahoo[dot]fr)                          |
++-----------------------------------------------------------------------------+
+
+
+== Installations instructions ==================================================
+
+1) With PEAR
+
+	a) From commande line
+	> pear install PHP_Debug
+	
+	b) Copy the css/js/images folders of /your_pear_root/data/PHP_Debug
+	in your project directory
+	
+	c) Then you will have to modify the path of these resources in the 
+	debug options (check PHP_Debug_HTML_Div_test.php)
+
+2) Standalone
+
+	a) Dezip the package, the 3 tests should work without any modifications, 
+	except for the view source fonctionnality where you will have to modify 
+	the options in 'PHP_Debug_ShowSource.php'(CSS_ROOT, ALLOWED_PATH, PEAR_ROOT)
+	
+	PS: If PEAR is already in the path you can comment the "set_include_path" line
+
+== "Hello world !" script ======================================================
+
+check 'PHP_Debug_test.php'
+
+
+== Full example ================================================================
+
+check 'PHP_Debug_HTML_Div_test.php' and 'PHP_Debug_HTML_Table_test.php'
+
+== End
+
+Don't hesitate to mail me if you have a problem. :) (check CONTACT file)

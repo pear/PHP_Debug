@@ -1,0 +1,116 @@
+/* Main table */
+.pd-table {
+  border: solid 1px Navy;
+  border-bottom: 0px;
+  border-right: 0px;
+}
+/* Table header */
+.pd-table-header {
+  font-family: tahoma, arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: white;
+  background-color: Navy;
+  border-bottom: solid 1px Navy;
+}
+/* 1- Generic TD cell */
+.pd-td {
+  font-family: tahoma, arial, sans-serif;
+  font-size: 0.8em;
+  color: black;
+  background-color: white;
+  padding: 2px;
+  border-bottom: solid 1px Navy;
+  border-right: solid 1px Navy;
+}
+/* 2, 3 - Query cell */
+.pd-query {
+  font-weight: bold;
+  color: orange;
+}
+/* 5 - Application error */
+.pd-app-error {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+/* 6 - Credits */
+.pd-credits { 
+  font-family: tahoma, arial, sans-serif;
+  font-size: 0.9em;
+  color: navy;
+  font-weight: bold;
+}
+/* 7 - Search cell */
+.pd-search {
+  font-family: tahoma, arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+/* Highligthed search keyword */
+.pd-search-hl {
+  background-color: yellow;
+  color: blue;
+}
+/* 8 - Dump */
+.pd-dump-title {
+  color: blue;
+}
+.pd-dump-val {
+  color: black;
+  border: solid 1px blue;
+}
+/* 9 - Perf summary */
+.pd-perf {
+  font-size: 0.8em;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+}
+.pd-perf-table {
+  border: solid 1px blue;
+}
+.pd-time {
+  color: navy;
+  font-weight: bold;
+}
+/* 10 - Templates */
+.pd-files {
+  color: blue;
+}
+.pd-main-file {
+  background-color: LightSteelBlue;
+  color: white;
+  font-weight: bold;
+}
+/* 11 - Page action */
+.pd-pageaction {
+  background-color: LightSteelBlue;
+  color: white;
+  font-weight: bold;
+}
+/* 13 - Watch cell */
+.pd-watch {
+  font-style: oblique; 
+  font-weight: bold;
+}
+.pd-watch-val {
+  font-weight: bold;
+  border: solid 1px Navy;
+}
+/* 14 - Php errors */
+.pd-php-warning {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.pd-php-notice {
+  background-color: yellow;
+  color: navy;
+  font-weight: bold;
+}
+.pd-php-user-error {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}

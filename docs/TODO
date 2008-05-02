@@ -1,0 +1,12 @@
++-----------------------------------------------------------------------------+
++-- PHP_Debug : A simple and fast way to debug your PHP code                  |
++--                                                                           |
++-- Support : Vernet Loic (qrf_coil[at]yahoo[dot]fr)                          |
++-----------------------------------------------------------------------------+
+
+== TODO ========================================================================
+
+- Debug Class :
+  - Do the Pear end user documentation
+  - Add sources to cvs/svn 
+	- Replace exception handler manager

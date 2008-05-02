@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+http://pear.php.net/dtd/tasks-1.0.xsd
+http://pear.php.net/dtd/package-2.0
+http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PHP_Debug</name>
+ <channel>pear.php.net</channel>
+ <summary>PHP_Debug provides assistance in debugging PHP code</summary>
+ <description>
+ The basic purpose of PHP_Debug is to provide assistance in debugging PHP code, by "debug" i don't mean "step by step debug" but program trace, variables display, process time, included files, queries executed, watch variables... These informations are gathered through the script execution and therefore are displayed at the end of the script (in a nice floating div or a html table) so that it can be read and used at any moment. (especially usefull during the development phase of a project or in production with a secure key/ip)
+ </description>
+ <lead>
+  <name>Vernet Loïc</name>
+  <user>c0il</user>
+  <email>qrf_coil[at]yahoo[dot]fr</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-05-02</date>
+ <time>05:55:55</time>
+ <version>
+  <release>1.0.1</release>
+  <api>1.0.1</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>This is just a small update to correct minor bugs.</notes>
+ <contents>
+  <dir name="/">
+   <file name="PHP_Debug_test.php" role="doc" />
+   <file name="PHP_Debug_HTML_Div_test.php" role="doc" />
+   <file name="PHP_Debug_HTML_Table_test.php" role="doc" />
+   <file name="PHP_Debug_Sources.php" role="doc" />
+   <file name="PHP_Debug_ShowSource.php" role="doc" />
+   <dir name="PHP">
+    <file name="Debug.php" role="php" />
+    <file name="DebugLine.php" role="php" />
+    <dir name="Debug">
+     <file name="Renderer.php" role="php" />
+     <dir name="Renderer">
+      <file name="Common.php" role="php" />
+      <dir name="HTML">
+       <file name="DivConfig.php" role="php" />
+       <file name="Div.php" role="php" />
+       <file name="TableConfig.php" role="php" />
+       <file name="Table.php" role="php" />
+      </dir>
+     </dir>
+    </dir>   
+   </dir>
+   <dir name="docs">
+    <file name="CHANGELOG" role="doc" />
+    <file name="CONTACT" role="doc" />
+    <file name="FAQ" role="doc" />
+    <file name="INSTALL" role="doc" />
+    <file name="README" role="doc" />
+    <file name="TODO" role="doc" />
+   </dir>
+   <dir name="css">
+    <file name="html_div.css" role="data" />
+    <file name="html_table.css" role="data" />
+    <file name="view_source.css" role="data" />
+   </dir>
+   <dir name="images">
+    <file name="close.png" role="data" />
+    <file name="comment.png" role="data" />
+    <file name="config.png" role="data" />
+    <file name="database.png" role="data" />
+    <file name="error.png" role="data" />
+    <file name="info.png" role="data" />
+    <file name="memory.png" role="data" />
+    <file name="reload.png" role="data" />
+    <file name="time.png" role="data" />
+    <file name="toggle.gif" role="data" />
+    <file name="warning.png" role="data" />
+    <file name="w3c_home_nb.png" role="data" />
+   </dir>
+   <dir name="js">
+    <file name="html_div.js" role="data" />
+   </dir>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>Text_Highlighter</name>
+    <channel>pear.php.net</channel>
+   </package>
+   <package>
+    <name>Services_W3C_HTMLValidator</name>
+    <channel>pear.php.net</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+</package>

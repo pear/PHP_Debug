@@ -1,0 +1,59 @@
+ * +--------------------------------------------------------------------------+
+ * +-- PHP_Debug : A simple and fast way to debug your PHP code               |
+ * +--                                                                        |
+ * +-- Support : Vernet Loic (qrf_coil[at]yahoo[dot]fr)                       |
+ * +--------------------------------------------------------------------------+
+ * |                                                                          |
+ * | General process time SQL/PHP
+ * | Check performance of parts of code
+ * | Show sql of executed queries (with highlighting and execution time)
+ * | Dump of all types of variable in a graphical way
+ * | Functionnal/trace debug (with line, file, class, function)
+ * | Show globals var ($GLOBALS, $_POST, $_GET, $_COOKIE ...)
+ * | 2 renderers, as a HTML talbe or as a floating div
+ * | Allow to watch variables (+ watch on type of the variable)
+ * | Show php version & loaded extensions
+ * | Allow to show source code of all parsed file (with TEXT_Highlighter)
+ * | Static methods to debug/trace out of the debug renderer display
+ * | Debug infos are classified by type (14 types available)
+ * | Can replace the PHP error handler to show messages inside the debug
+ * | renderer 
+ * | ...see the doc for the full specifications                               |
+ * +--------------------------------------------------------------------------+
+
+
+== PHP_Debug Project infos ====================================================
+
+== Project Home : Sourge Forge
+	--> http://sourceforge.net/projects/phpdebug/
+
+== Project Maintainer(s)
+	--> https://sourceforge.net/users/c0il/
+
+LEAD : COil (qrf_coil[at]yahoo[dot]fr)  It's me ! :)
+
+Send of all your HELP / SUPPORT / INSTALL / CHANGE request to me.
+
+== Documentation
+	--> Check basic documentation in INSTALL
+	--> Check full doc in "/docs/api" (to come)
+
+== Tutorials
+	--> Tests are the *test.php files at the root
+	
+== Installation Notes
+	--> Check INSTALL
+
+== Changes Logs / Release
+	--> Check CHANGELOG
+
+== Download / Check last version at :
+	--> http://sourceforge.net/project/showfiles.php?group_id=95715
+	
+== And What's next ?
+	--> Check TODO
+
+== Mailing Lists
+	--> General : phpdebug-gen@lists.sourceforge.net
+
+== PHP_Debug ===================================================================

@@ -1,0 +1,135 @@
++-----------------------------------------------------------------------------+
++-- PHP_Debug : A simple and fast way to debug your PHP code                  |
++--                                                                           |
++-- Support : Vernet Loïc (qrf_coil[at]yahoo[dot]fr)                          |
++-----------------------------------------------------------------------------+
+
+
+== RELEASE & CHANGES LOG [SourceForge ID] ======================================
+
+--> http://sourceforge.net/tracker/?atid=612377&group_id=95715&func=browse
+
+/!\ = Major modification since previous release.
+
+
+== V1.0.1 - mar 2008 (sourceforge release V2.1.3) ==============================
+
+  - Corrected http://pear.php.net/bugs/12997
+  - Corrected http://pear.php.net/bugs/12814
+  - [WEB] Added a testimonials page
+  - Corrected symfony project url in credits (........)
+
+== V1.0.0 stable - jan 2008 (sourceforge release V2.1.2) =======================
+
+  - Added credits to symfony for the idea of the floating div renderer 
+  - Added a link for a direct input W3C validation
+  - Added warning for local W3C validation
+  - Corrected html validation in the W3C tab (dooh!)
+  - Changed main version number for the pear one
+  - Switched package to stable state
+  - Fixed typo in the database debug tab
+  - [12078] Moved examples to doc role
+  - [10919] Created a setStartTime method for the php_debugline class
+
+(sourceforge releases)
+== V2.1.1 - Apr 2007 ===========================================================
+
+  - /!\ Changed the file structure of the class to follow pear standarts
+  now you must require 'PHP/Debug.php' instead of 'Debug.php'
+  - /!\ General otions do not need a 'DEBUG_' prefix any more
+  - /!\ getDisplay() public function renamed to getOutput()
+  - Added a tab with an optional W3C validation with Services_W3C_HTMLValidator
+  - Added version number of php extensions when available
+  - Changed the license from PHP license to MIT
+  - All addDebug public functions are now returning the PHP_DebugLine object
+  they have just created
+  - Exception is raised if the watch method is used but disabled in the 
+  options (remember this feature is highly unstable under windows)
+  - Added file, line, class, function information when using dump method 
+  with the die parameter (to prevent searching for the location of the call..)
+  - Updated the info message when no database related debug available
+  - __toString methods updated with an uppercase S
+  - PHP_DebugLine class has now its own file (as all classes now)
+  - Reviewed visiblity modifiers for all methods and attributes
+  - All global constants switched to class constants
+  - Corrected class naming and directory structure for renderers
+  - Corrected @since doctags
+  - Corrected globally file naming
+  - Others minor change in code to strictly follow Pear CS
+
+== V2.1.0 - Apr 2007 ===========================================================
+
+  - The 3third parameter of dumpVar() function now tells to stop or not 
+  	execution of the script
+  - Package available as a Pear package or a standard zip
+  - New nice floating div renderer that can be easly hidden from the display, 
+  	it's the new default renderer of PHP_Debug (HTML_Div), the old HTML_Table
+  	renderer can still be used
+  - New public methods :
+  	- queryRel(), for database related info
+  	- getDisplay(), get buffer of infos instead of printing it
+  	- getDebugBuffer(), retrieve all debug infos as an array
+  	- addSetting, addSettings, add debugs of "settings" type
+  - /!\ Main class is now named "PHP_Debug", instead of "Debug"
+  - All child classes renamed with "PHP_Debug" prefix
+  - /!\ HTML_Table, now css is included as an external resource
+  	check option "HTML_TABLE_css_path".
+  - Package directory structure modified to fit Pear standards
+
+== V2.0.0 - Sept 2006 ==========================================================
+
+  - All :)
+  - PHP5 version, all code rewrited with Pear coding standards
+  - PHP_Error handler
+  - View source with Pear::Text_Highlighter
+  - Variable watcher
+  - New style
+  - New friendly public function name
+  - Automatic add of __FILE__, __LINE__
+  - ...
+
+== V1.1.1 - June 2005 ==========================================================
+
+  - [1221786] corrected search function in IE.
+
+== V1.1.0 - May 2005 ===========================================================
+
+  - [1202500] Improved global design, css style sheet used.
+  - [ 861991] Improved design of view source script, now using external script.
+  - [1202367] Pear::SQL_Parser integration (you must enable Pear see FAQ)
+  - [ 861919] Made output XHTML 1.0 strict compliant
+  - [ 861983] Customize wich debug infos to display, debugmode implemented.
+  - [1200031] Fixed font style when viewing source (source.php)
+  - [1196959] Fixed style in FireFox
+
+== V1.0 - Jan 2004 =============================================================
+
+  (this version was never released)
+  
+  - [865955] Change the way DebugDisplay() function is called 
+      /!\ New syntax is : <?php $Dbg->DebugDisplay() ?>
+      
+  - [861986] Now big queries are displayed on multiple lines 
+      (length is parametrable) 
+  - [861988] Combo box to select only debug infos of a type
+  - [861994] Search is case sensitive or not via a checkbox
+  - [861981] Made source Code Pear standarts compliant
+  - [862998] New debugline type, DEBUGLINE_SQLPARSE, (for SQL parsing)
+  - [865778] Rewrite the way that Debug and DebugLine Object Communicate
+      /!\ : Now debug object must be created with syntax : 
+          <?php $Dbg = & new Debug(); ?>
+  
+  - [862026] Mode DBG_MODE_OFF desactivate all public functions
+  - [862998] New debugline type, DEBUGLINE_SQLPARSE, witch is for a SQL parse 
+      error.
+  - [862838] Added an anchor to access directly debug infos with an htlm link
+  - [862011] Now all datas processing and formatting are made at debug display
+  - [862078] Distinct query and explain links from query string
+  - [861984] Enable or disable PHPMyAdmin links
+  - [861927] Distinct view source and edit link from source path
+
+
+== BETA1.0 - 14 Dec 2003 =======================================================
+
+	- This is the initial release of the PHP_Debug Class
+

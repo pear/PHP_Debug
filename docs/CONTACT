@@ -1,0 +1,60 @@
++-----------------------------------------------------------------------------+
++-- PHP_Debug : A simple and fast way to debug your PHP code                  |
++--                                                                           |
++-- Support : Vernet Loic (qrf_coil[at]yahoo[dot]fr)                          |
++-----------------------------------------------------------------------------+
+
+== PHP_Debug History ===========================================================
+
+PHP_Debug has started like this :
+
+<?php
+$tab = "<table width=100%>";
+
+function dbg($str)
+{
+	$tab .= "<tr><td>$str</td></tr>">;
+}
+
+...
+
+echo $tab. '</table>';
+?>
+
+I have improved it a little... :)
+Since i code, i love to have lots of trace and debug informations in my apps,
+that's why i decided to write this class. If you have any ideas, suggestions 
+to do... You can use the sourceforge interface or feel free to mail me.
+
+
+== PHP_Debug Website (http://www.php-debug.com)=================================
+
+This website is open-source, feel free to copy/past if you find interestings
+things (The show source link is on the bottom-left)
+
+This site uses the following Pear packages :
+
+	- Pear::XML_RSS to read RSS ressources from SourceForge.
+		(Library install + code to parse RSS = 5 min !!!)
+
+	- Pear::Cache_Lite to cache the results of Pear::TXT_Highlighter
+
+	- Pear::TXT_Highlighter to display the nice colorized PHP code
+
+		Pear power ! :)
+
+This site also uses and abuses the following PHP libraries :
+	
+	- PHP_Documentor (http://phpdocu.sourceforge.net)to generate the technical 
+		documentation 
+
+	- Smarty (http://smarty.php.net) as the template engine
+
+	Thanks to all of them and the open-source community ! :)
+
+
+== Contact =====================================================================
+
+Simply email me at qrf_coil[at]yahoo.fr, i'll answer as fast as possible.
+
+See u. COil. :)
