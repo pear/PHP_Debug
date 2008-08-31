@@ -44,7 +44,7 @@
  * @link       http://pear.php.net/package/PHP_Debug
  * @link       http://phpdebug.sourceforge.net
  * @link       http://www.php-debug.com
- * @see 	     Text_Highlighter, Services_W3C_HTMLValidator 
+ * @see 	     Text_Highlighter 
  * @see        Var_Dump, SQL_Parser
  * @since      1.0.0RC1
  * @version    CVS: $Id$
@@ -79,7 +79,7 @@ class PHP_Debug
     const VERSION_DEFAULT    = self::VERSION_STANDALONE;
     const VERSION            = self::VERSION_STANDALONE;
     const RELEASE            = 'V2.1.3';
-    const PEAR_RELEASE       = 'V1.0.1';
+    const PEAR_RELEASE       = 'V1.0.2';
 
     /**
      * These are constant for dump() and DumpObj() functions.
@@ -130,7 +130,6 @@ class PHP_Debug
         'enable_watch'         => false,              // Enable the watch function
         'replace_errorhandler' => true,               // Replace or no the PHP errorhandler
         'lang'                 => 'EN',               // Language
-        'enable_w3c_validator' => false,              // Validate the output
     );
 
     /**

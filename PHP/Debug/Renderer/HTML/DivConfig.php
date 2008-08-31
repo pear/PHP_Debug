@@ -140,7 +140,6 @@ class PHP_Debug_Renderer_HTML_DivConfig
                 src="{$imagesPath}/w3c_home_nb.png"
                 alt="W3C Validator" /></a>
         </p>
-        {$results}
         or copy paste the source here <a href="http://validator.w3.org/#validate_by_input">http://validator.w3.org/#validate_by_input</a>
 
     </div> <!-- End sfWebDebugW3CDetails -->
@@ -310,7 +309,7 @@ class PHP_Debug_Renderer_HTML_DivConfig
         PHP_Debug ['. PHP_Debug::PEAR_RELEASE .'] | By COil (2008) | 
         <a href="http://www.strangebuzz.com">http://www.strangebuzz.com</a> | 
         <a href="http://phpdebug.sourceforge.net/">PHP_Debug Project Home</a> | 
-        Idea from <a href="http://www.symfony-project.org/">symfony framework</a>        
+        Original idea from the <a href="http://www.symfony-project.org/">symfony framework</a>        
         ';
 
         /**

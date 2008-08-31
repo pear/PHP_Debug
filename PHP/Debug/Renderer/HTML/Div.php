@@ -114,65 +114,18 @@ class PHP_Debug_Renderer_HTML_Div extends PHP_Debug_Renderer_Common
     }
 
     /**
-     * Show result of the W3C validator
+     * Show W3C validator tab
      * 
      * @author COil
      * @since V2.1.1 - 23 apr 2007
-     * 
-     * @see $options['enable_w3c_validator']
-     * @see Services_W3C_HTMLValidator
      */
     protected function showW3cValidation()
     {
-        // Service validation is enabled 
-        if ($this->options['enable_w3c_validator']) {
-
-            // Validator
-            require_once 'Services/W3C/HTMLValidator.php';
-            
-            $url = PHP_Debug::getUrl();
-            $v = new Services_W3C_HTMLValidator();
-            $res = $v->validate($url);
-    
-            if ($res) {
-                if ($res->isValid()) {
-                    $results = '<h2><img src="{$imagesPath}/info.png" alt="Valid"/> The output is valid</h2>';
-                } else {
-                    $results = '<h2><img src="{$imagesPath}/error.png" alt="Not valid" /> The output is <b>NOT</b> valid</h2>';
-        
-                    if ($res->errors || $res->warnings) {
-                    
-                      // Validation errors
-                      if ($res->errors) {
-                          $key = 'errors';
-                          $results.= $this->addW3CErrorInfos($res, $key);
-                      }
-      
-                      // Validation warnings
-                      if ($res->warnings) {
-                          $key = 'warnings';
-                          $results.= $this->addW3CErrorInfos($res, $key);
-                      }
-                    } else {
-                      $results = '<h2><img src="{$imagesPath}/warning.png" alt="warning" /> Validation results can\'t be retrieved (localhost source ?)</h2>
-                      ';
-                    }
-                }
-            } else {
-            	throw new exception('Services_W3C_HTMLValidator : Unable to parse '. 
-                    $url);
-            }
-        } else {
-            $results = '';
-        }
-
         return str_replace(
             array(
-                '{$results}',
                 '{$imagesPath}',
             ),
             array(
-                $results,
                 $this->options['HTML_DIV_images_path']
             ),
             $this->options['HTML_DIV_sfWebDebugW3CDetails']

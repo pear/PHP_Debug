@@ -15,11 +15,11 @@ http://pear.php.net/dtd/package-2.0.xsd">
   <email>qrf_coil[at]yahoo[dot]fr</email>
   <active>yes</active>
  </lead>
- <date>2008-05-02</date>
- <time>05:55:55</time>
+ <date>2008-08-31</date>
+ <time>20:55:55</time>
  <version>
-  <release>1.0.1</release>
-  <api>1.0.1</api>
+  <release>1.0.2</release>
+  <api>1.0.2</api>
  </version>
  <stability>
   <release>stable</release>
@@ -94,10 +94,6 @@ http://pear.php.net/dtd/package-2.0.xsd">
   <optional>
    <package>
     <name>Text_Highlighter</name>
-    <channel>pear.php.net</channel>
-   </package>
-   <package>
-    <name>Services_W3C_HTMLValidator</name>
     <channel>pear.php.net</channel>
    </package>
   </optional>
