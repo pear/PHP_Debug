@@ -61,7 +61,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 
 <p>
     <a href="PHP_Debug_HTML_Div_test.php">&raquo; HTML_DIV Renderer</a><br/>
-    <a href="PHP_Debug_HTML_Div_test.php?enable_w3c_validator=1">&raquo; HTML_DIV Renderer with W3C output validation</a><br/>
     <a href="PHP_Debug_HTML_Table_test.php">&raquo; HTML_Table Renderer</a><br/>
     <a href="PHP_Debug_test.php">&raquo; Test min</a><br/>
     <a href="PHP_Debug_Sources.php">&raquo; Show sources</a><br/>

@@ -26,7 +26,6 @@ $options = array(
     'enable_watch'         => false,     // Enable wath of vars
     'replace_errorhandler' => true,      // Replace the php error handler
     'lang'                 => 'FR',      // Lang
-    'enable_w3c_validator' => isset($_GET['enable_w3c_validator']) ? $_GET['enable_w3c_validator'] : false,   // Validate the output
 
     // Renderer specific
     'HTML_DIV_view_source_script_name' => 'PHP_Debug_ShowSource.php',

@@ -78,7 +78,7 @@ class PHP_Debug
     const VERSION_PEAR       = 1;
     const VERSION_DEFAULT    = self::VERSION_STANDALONE;
     const VERSION            = self::VERSION_STANDALONE;
-    const RELEASE            = 'V2.1.3';
+    const RELEASE            = 'V2.1.4';
     const PEAR_RELEASE       = 'V1.0.2';
 
     /**
