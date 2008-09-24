@@ -7,5 +7,9 @@
 == TODO ========================================================================
 
 - Debug Class :
-  - Do the Pear end user documentation
+  - Check & report modifications of the sf 1.2 bar 
+  - Allow to add panels to the bar like the new symfony 1.2 debug bar
 	- Replace exception handler manager
+	
+- Web / Misc
+  - Do the Pear end user documentation
