@@ -78,8 +78,8 @@ class PHP_Debug
     const VERSION_PEAR       = 1;
     const VERSION_DEFAULT    = self::VERSION_STANDALONE;
     const VERSION            = self::VERSION_STANDALONE;
-    const RELEASE            = 'V2.1.4';
-    const PEAR_RELEASE       = 'V1.0.2';
+    const RELEASE            = 'V2.1.5';
+    const PEAR_RELEASE       = 'V1.0.3';
 
     /**
      * These are constant for dump() and DumpObj() functions.
