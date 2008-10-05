@@ -377,6 +377,7 @@ class PHP_Debug_Renderer_HTML_Div extends PHP_Debug_Renderer_Common
                 '{$sfWebDebugRequest}',
                 '{$sfWebDebugResponse}',
                 '{$sfWebDebugSettings}',
+                '{$sfWebDebugConstants}',
                 '{$sfWebDebugGlobals}',
                 '{$sfWebDebugPhp}',
                 '{$sfWebDebugFiles}',
@@ -386,6 +387,7 @@ class PHP_Debug_Renderer_HTML_Div extends PHP_Debug_Renderer_Common
                 $this->showSuperArray(PHP_Debug::GLOBAL_REQUEST),
                 $this->showSuperArray(PHP_Debug::GLOBAL_COOKIE),
                 $this->showArray($this->settingsAsArray($debugInfos), 'Settings'),
+                $this->showArray(get_defined_constants(true)),
                 $this->showArray($this->globalsAsArray(), 'Globals'),
                 $this->showArray($this->phpInfoAsArray(), 'PHP Infos'),
                 $this->showTemplates(),
@@ -1179,7 +1181,7 @@ class PHP_Debug_Renderer_HTML_Div extends PHP_Debug_Renderer_Common
     }
 
     /**
-     * Show a super array
+     * Displays an array.
      * 
      * @param string $SuperArrayType Type of super en array to add
      * @since V2.0.0 - 07 Apr 2006
@@ -1205,5 +1207,4 @@ class PHP_Debug_Renderer_HTML_Div extends PHP_Debug_Renderer_Common
         
         return $buffer;
     }
-
 }

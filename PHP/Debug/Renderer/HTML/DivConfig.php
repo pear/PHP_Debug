@@ -179,7 +179,7 @@ class PHP_Debug_Renderer_HTML_DivConfig
          */         
          self::$options['HTML_DIV_sfWebDebugTimeDetails'] = '
 
-    <div id="sfWebDebugTimeDetails" class="top" style="display: none">
+    <div id="sfWebDebugTimeDetails" class="top" style="display:none">
         <h1>Timers</h1>
         <table class="sfWebDebugLogs" style="width: 300px">
             <tr>
@@ -213,7 +213,7 @@ class PHP_Debug_Renderer_HTML_DivConfig
          */         
          self::$options['HTML_DIV_sfWebDebugDatabaseDetails'] = '
 
-    <div id="sfWebDebugDatabaseDetails" class="top" style="display: none">
+    <div id="sfWebDebugDatabaseDetails" class="top" style="display:none">
         <h1>Database / SQL queries</h1>
 
         <div id="sfWebDebugDatabaseLogs">
@@ -231,7 +231,7 @@ class PHP_Debug_Renderer_HTML_DivConfig
          */         
     self::$options['HTML_DIV_sfWebDebugLog'] = '
 
-    <div id="sfWebDebugLog" class="top" style="display: none"><h1>Log and debug messages</h1>
+    <div id="sfWebDebugLog" class="top" style="display:none"><h1>Log and debug messages</h1>
         <ul id="sfWebDebugLogMenu">
             <li><a href="#" onclick="sfWebDebugToggleAllLogLines(true, \'sfWebDebugLogLine\'); return false;">[all]</a></li>
             <li><a href="#" onclick="sfWebDebugToggleAllLogLines(false, \'sfWebDebugLogLine\'); return false;">[none]</a></li>
@@ -264,37 +264,42 @@ class PHP_Debug_Renderer_HTML_DivConfig
          */         
     self::$options['HTML_DIV_sfWebDebugConfig'] = '
 
-    <div id="sfWebDebugConfig" class="top" style="display: none">
+    <div id="sfWebDebugConfig" class="top" style="display:none">
         <h1>Configuration and request variables</h1>
 
         <h2>Request <a href="#" onclick="sfWebDebugToggle(\'sfWebDebugRequest\'); return false;"><img src="{$imagesPath}/toggle.gif" alt="Toggle" /></a></h2>
 
-        <div id="sfWebDebugRequest" style="display: none">
+        <div id="sfWebDebugRequest" style="display:none">
 {$sfWebDebugRequest}
         </div>
 
         <h2>Response <a href="#" onclick="sfWebDebugToggle(\'sfWebDebugResponse\'); return false;"><img src="{$imagesPath}/toggle.gif" alt="Toggle" /></a></h2>
-        <div id="sfWebDebugResponse" style="display: none">
+        <div id="sfWebDebugResponse" style="display:none">
 {$sfWebDebugResponse}
         </div>
 
         <h2>Settings <a href="#" onclick="sfWebDebugToggle(\'sfWebDebugSettings\'); return false;"><img src="{$imagesPath}/toggle.gif" alt="Toggle" /></a></h2>
-        <div id="sfWebDebugSettings" style="display: none">
+        <div id="sfWebDebugSettings" style="display:none">
 {$sfWebDebugSettings}
         </div>
 
+        <h2>Constants <a href="#" onclick="sfWebDebugToggle(\'sfWebDebugConstants\'); return false;"><img src="{$imagesPath}/toggle.gif" alt="Toggle" /></a></h2>
+        <div id="sfWebDebugConstants" style="display:none">
+{$sfWebDebugConstants}
+        </div>
+        
         <h2>Globals <a href="#" onclick="sfWebDebugToggle(\'sfWebDebugGlobals\'); return false;"><img src="{$imagesPath}/toggle.gif" alt="Toggle" /></a></h2>
-        <div id="sfWebDebugGlobals" style="display: none">
+        <div id="sfWebDebugGlobals" style="display:none">
 {$sfWebDebugGlobals}
         </div>
 
         <h2>Php <a href="#" onclick="sfWebDebugToggle(\'sfWebDebugPhp\'); return false;"><img src="{$imagesPath}/toggle.gif" alt="Toggle" /></a></h2>
-        <div id="sfWebDebugPhp" style="display: none">
+        <div id="sfWebDebugPhp" style="display:none">
 {$sfWebDebugPhp}
         </div>
 
         <h2>Files <a href="#" onclick="sfWebDebugToggle(\'sfWebDebugFiles\'); return false;"><img src="{$imagesPath}/toggle.gif" alt="Toggle" /></a></h2>
-        <div id="sfWebDebugFiles" style="display: none">
+        <div id="sfWebDebugFiles" style="display:none">
 {$sfWebDebugFiles}
         </div>
 
