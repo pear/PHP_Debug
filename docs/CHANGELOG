@@ -20,6 +20,7 @@
 == V1.0.2 - aug 2008 (sourceforge release V2.1.4) ==============================
 
   - Removed w3c validation on the fly feature
+  - Corrected http://pear.php.net/bugs/bug.php?id=14694
 
 == V1.0.1 - mar 2008 (sourceforge release V2.1.3) ==============================
 
