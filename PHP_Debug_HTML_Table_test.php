@@ -80,11 +80,8 @@ $_SESSION['Kikoo'] = 'One session variable defined';
 
 $Dbg = new PHP_Debug($options);
 
-
 // Test restrictAcess() function, only IP in param array will see the debug ====
-
-//$Dbg->restrictAcess($allowedip);
-
+$Dbg->restrictAccess($allowedip);
 
 
 // Test add() function =========================================================

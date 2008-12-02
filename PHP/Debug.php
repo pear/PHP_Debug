@@ -610,7 +610,7 @@ class PHP_Debug
             $this->requiredFiles = get_required_files();
     
             // Call rendering
-            return$renderer->render();
+            return $renderer->render();
         }
     }
 
