@@ -131,10 +131,10 @@ $Dbg->setAction($action);
 
 // /!\ Be carefull the tick directive does not work under windows /!\
 // and make apache crash. To test under unix, remove comments bellow and
-// corresponding brace line 163 
+// corresponding brace line 170 
   
 //declare (ticks = 1) 
-//{
+//{  // <-- uncomment here
 
     // Watch the variable called 'watchedVariable' 
     //$Dbg->watch('watchedVariable');
@@ -167,7 +167,7 @@ $Dbg->setAction($action);
     $watchedVariable = 555;    
     $watchedVariable = 'converting from INT to STR';
 
-//} // End of declare {ticks=n}  block
+//} // End of declare {ticks=n}  block   <-- uncomment here
 
 
 // Test the add() function with the timer ======================================
