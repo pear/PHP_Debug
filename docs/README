@@ -1,7 +1,7 @@
  * +--------------------------------------------------------------------------+
  * +-- PHP_Debug : A simple and fast way to debug your PHP code               |
  * +--                                                                        |
- * +-- Support : Vernet Loic (qrf_coil[at]yahoo[dot]fr)                       |
+ * +-- Support : Vernet Loic (coil[at]php-debug[dot]com)                      |
  * +--------------------------------------------------------------------------+
  * |                                                                          |
  * | General process time SQL/PHP
@@ -24,13 +24,17 @@
 
 == PHP_Debug Project infos ====================================================
 
-== Project Home : Sourge Forge
+== Project Home
+  PEAR :
+  --> http://pear.php.net/package/PHP_Debug
+
+  Sourge Forge :
 	--> http://sourceforge.net/projects/phpdebug/
-
-== Project Maintainer(s)
-	--> https://sourceforge.net/users/c0il/
-
-LEAD : COil (qrf_coil[at]yahoo[dot]fr)  It's me ! :)
+	
+== Project Maintainer(s) :
+	--> COil: lead (It's me ! :)) 
+	   - email : coil[at]php-debug[dot]com)
+	   - php blog : http://www.strangebuzz.com
 
 Send of all your HELP / SUPPORT / INSTALL / CHANGE request to me.
 
@@ -53,5 +57,5 @@ Send of all your HELP / SUPPORT / INSTALL / CHANGE request to me.
 == And What's next ?
 	--> Check TODO file
 
-== Mailing Lists
+== Mailing List
 	--> General : phpdebug-gen@lists.sourceforge.net

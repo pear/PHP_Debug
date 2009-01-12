@@ -1,7 +1,7 @@
 +-----------------------------------------------------------------------------+
 +-- PHP_Debug : A simple and fast way to debug your PHP code                  |
 +--                                                                           |
-+-- Support : Vernet Loic (qrf_coil[at]yahoo[dot]fr)                          |
++-- Support : Vernet Loic (coil[at]php-debug[dot]com)                         |
 +-----------------------------------------------------------------------------+
 
 == PHP_Debug History ===========================================================
@@ -55,6 +55,6 @@ This site also uses and abuses the following PHP libraries :
 
 == Contact =====================================================================
 
-Simply email me at qrf_coil[at]yahoo.fr, i'll answer as fast as possible.
+Simply email me at coil[at]php-debug[dot]com, i'll answer as fast as possible.
 
 See u. COil. :)
