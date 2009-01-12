@@ -59,10 +59,10 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
     <title>Pear::PHP_Debug</title>
     <script type="text/javascript" src="'. $options['HTML_DIV_js_path'] .'/html_div.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="'. $options['HTML_DIV_css_path'] .'/html_div.css" />
+  </head>
+<body>    
 ';
 ?>
-  </head>
-<body>
 <h1>PEAR::PHP_Debug  -------------------------></h1>
 
 <p>
@@ -70,6 +70,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
     <a href="PHP_Debug_HTML_Table_test.php">&raquo; HTML_Table Renderer</a><br/>
     <a href="PHP_Debug_test.php">&raquo; Test min</a><br/>
     <a href="PHP_Debug_Sources.php">&raquo; Show sources</a><br/>
+    <a href="http://www.php-debug.com">&raquo; Back to PHP_Debug home</a><br/>
 </p>
 
 <?php

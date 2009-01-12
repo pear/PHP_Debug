@@ -15,8 +15,10 @@
 
 == V1.0.3 -  2008 (sourceforge release V2.1.5) =================================
 
+   - [15530] Fixed render method for the Table renderer
+   - Fixed floating div title width under FF linux  
    - Added a new "constants" sub-panel inside the "vars & config" panel
-   - [14694] Bug with the show source script when get_magic_quotes_gpc is On
+   - [14694] Fixed bug with the show source script when get_magic_quotes_gpc is On
 
 == V1.0.2 - aug 2008 (sourceforge release V2.1.4) ==============================
 

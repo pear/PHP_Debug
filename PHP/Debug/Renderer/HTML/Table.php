@@ -98,7 +98,7 @@ class PHP_Debug_Renderer_HTML_Table extends PHP_Debug_Renderer_Common
         $buffer .= $this->displayFooter();
         
         // Output Buffer
-        echo $buffer;        
+        return $buffer;        
     }
 
     /**
@@ -190,7 +190,7 @@ class PHP_Debug_Renderer_HTML_Table extends PHP_Debug_Renderer_Common
      */
     public function render()
     {
-        $this->display();
+        return $this->display();
     }
 
     /**

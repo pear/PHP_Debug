@@ -567,7 +567,7 @@ class PHP_Debug
      */ 
     public function getQueryTime()
     {
-    	$queryTime = 0;        
+    	  $queryTime = 0;        
         
         foreach($this->debugLineBuffer as $lkey => $lvalue)  {
             $properties = $lvalue->getProperties();

@@ -64,6 +64,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
     <a href="PHP_Debug_HTML_Table_test.php">&raquo; HTML_Table Renderer</a><br/>
     <a href="PHP_Debug_test.php">&raquo; Test min</a><br/>
     <a href="PHP_Debug_Sources.php">&raquo; Show sources</a><br/>
+    <a href="http://www.php-debug.com">&raquo; Back to PHP_Debug home</a><br/>
 </p>
 
 <?php
@@ -79,6 +80,7 @@ $_SESSION['Kikoo'] = 'One session variable defined';
 // Debug Object creation =======================================================
 
 $Dbg = new PHP_Debug($options);
+
 
 // Test restrictAcess() function, only IP in param array will see the debug ====
 $Dbg->restrictAccess($allowedip);
