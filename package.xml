@@ -26,7 +26,8 @@ http://pear.php.net/dtd/package-2.0.xsd">
   <api>stable</api>
  </stability>
  <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
- <notes>Removed the w3c on the fly validation as it was un-finalized and not useable.</notes>
+ <notes>
+ </notes>
  <contents>
   <dir name="/">
    <file name="PHP_Debug_test.php" role="doc" />
