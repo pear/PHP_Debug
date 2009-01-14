@@ -27,6 +27,11 @@ http://pear.php.net/dtd/package-2.0.xsd">
  </stability>
  <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
  <notes>
+   - Changed mail email to coil[at]php-debug[dot]com
+   - [15530] Fixed render method for the Table renderer
+   - Fixed floating div title width under FF linux
+   - Added a new "constants" sub-panel inside the "vars and config" panel
+   - [14694] Fixed bug with the show source script when get_magic_quotes_gpc is On 
  </notes>
  <contents>
   <dir name="/">
