@@ -37,6 +37,7 @@
   opacity: 0.80;
   filter: alpha(opacity:80);
   z-index: 10000;
+  white-space: nowrap;
 }
 
 #sfWebDebugBar[id]
@@ -318,7 +319,7 @@
   opacity: 0.85;
 }
 
-#sfWebDebug .main-file 
+#sfWebDebug .main-file
 {
 	font-weight: bold;
 }
