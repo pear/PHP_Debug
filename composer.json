@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "PHP_Debug": "./"
+            "PHP": "./"
         }
     },
     "description": "More info available on: http://pear.php.net/package/PHP_Debug",
@@ -27,5 +27,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*"
+    },
+    "suggest": {
+        "pear/text_highlighter": "Install optionally via your project's composer.json"
     }
 }
